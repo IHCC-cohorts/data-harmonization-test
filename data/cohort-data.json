@@ -88,6 +88,40 @@
   },
   {
     "available_data_types": {
+      "biospecimens": false,
+      "environmental_data": false,
+      "genomic_data": false,
+      "phenotypic_clinical_data": false
+    },
+    "biosample": {
+      "sample_type": [
+        "Blood",
+        "Urine"
+      ]
+    },
+    "cohort_name": "Demo test workflow Carles",
+    "countries": [
+      "UK"
+    ],
+    "current_enrollment": 500,
+    "enrollment_period": "2019:2021",
+    "irb_approved_data_sharing": false,
+    "pi_lead": "test",
+    "questionnaire_survey_data": {
+      "other_questionnaire_survey_data": [
+        "Reproduction"
+      ],
+      "socio_demographic_and_economic_characteristics": [
+        "Age/birthdate",
+        "Biological sex"
+      ]
+    },
+    "survey_administration": [],
+    "target_enrollment": 1000,
+    "website": null
+  },
+  {
+    "available_data_types": {
       "biospecimens": true,
       "environmental_data": true,
       "genomic_data": true,
