@@ -1,0 +1,11 @@
+Term ID	Label	Parent Term	Definition	GECKO Category	Internal ID	Suggested Categories	Comment
+CGL:0000001	Nationality		The country of origin of the individual (the country of which the person is/was a citizen by birth)				
+CGL:0000002	Citizenship		The country of which the individual is a citizen				
+CGL:0000003	Surname		Family or last name	survey administration			
+CGL:0000004	First Name		The first given name of the individual	survey administration			
+CGL:0000005	Sex		Male (1), female(2) or unknown(0)	biological sex			
+CGL:0000006	Birth Date		Date of Birth	age/birthdate			
+CGL:0000007	Employment Type		Employed, Unemployed, Part time, Retired	socio-demographic and economic characteristics			
+CGL:0000008	Birth Weight		Birth weight in grams	reproduction			
+CGL:0000009	Blood cell count		Complete blood cell count	blood			
+CGL:0000010	Glucose		Fasting glucose	urine			

@@ -1,10 +1,10 @@
 {
     "CANPATH": {
         "available_data_types": {
-          "biospecimens": true,
-          "environmental_data": true,
-          "genomic_data": true,
-          "phenotypic_clinical_data": true
+            "biospecimens": true,
+            "environmental_data": true,
+            "genomic_data": true,
+            "phenotypic_clinical_data": true
         },
         "cohort_name": "Canadian Partnership for Tomorrow's Health",
         "countries": [
@@ -16,6 +16,24 @@
         "pi_lead": "Philip Awadalla",
         "target_enrollment": null,
         "website": "https://canpath.ca/"
+    },
+    "CGL": {
+        "available_data_types": {
+            "biospecimens": false,
+            "environmental_data": false,
+            "genomic_data": false,
+            "phenotypic_clinical_data": false
+        },
+        "cohort_name": "Demo test workflow Carles",
+        "countries": [
+            "UK"
+        ],
+        "current_enrollment": 500,
+        "enrollment_period": "2019:2021",
+        "irb_approved_data_sharing": false,
+        "pi_lead": "test",
+        "target_enrollment": 1000,
+        "website": null
     },
     "CHOP": {
         "available_data_types": {

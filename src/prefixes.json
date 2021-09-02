@@ -2,6 +2,7 @@
     "@context": {
         "BFO": "http://purl.obolibrary.org/obo/BFO_",
         "CANPATH": "https://purl.ihccglobal.org/CANPATH_",
+        "CGL": "https://purl.ihccglobal.org/CGL_",
         "CHEBI": "http://purl.obolibrary.org/obo/CHEBI_",
         "CHOP": "https://purl.ihccglobal.org/CHOP_",
         "CL": "http://purl.obolibrary.org/obo/CL_",
@@ -35,10 +36,10 @@
         "UBERON": "http://purl.obolibrary.org/obo/UBERON_",
         "UKLWC": "https://purl.ihccglobal.org/UKLWC_",
         "VZ": "https://purl.ihccglobal.org/VZ_",
+        "dc": "http://purl.org/dc/terms/",
         "obo": "http://purl.obolibrary.org/obo/",
         "oboInOwl": "http://www.geneontology.org/formats/oboInOwl#",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "dc": "http://purl.org/dc/terms/"
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
     }
 }
