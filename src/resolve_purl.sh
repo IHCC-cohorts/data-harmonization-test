@@ -4,7 +4,7 @@
 # Can also be called as a CGI script, which expects a QUERY_STRING.
 
 PATH_INFO=${QUERY_STRING=$1}
-GITHUB="https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization"
+GITHUB="https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test"
 ROOT="/opt/data-harmonization"
 DICTS="data_dictionaries"
 LOCATION=""

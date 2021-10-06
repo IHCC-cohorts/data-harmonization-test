@@ -55,7 +55,7 @@ data_dictionaries = []
 
 for index, row in df.iterrows():
     did = str(row['id'])
-    dpurl = f"https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/{did}.owl"
+    dpurl = f"https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/{did}.owl"
     base_uri = "https://purl.ihccglobal.org/%s_" % did.upper()
     dd = {'id': did, 'title': row['title'].toPython(),
           'preferredPrefix': did.upper(),

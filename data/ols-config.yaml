@@ -6,14 +6,14 @@ ontologies:
     like cancer, heart disease and diabetes, and to develop new ways to prevent and
     treat them.
   id: canpath
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/canpath.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/canpath.owl
   preferredPrefix: CANPATH
   title: Canadian Partnership for Tomorrow's Health (CanPath)
 - base_uri:
   - https://purl.ihccglobal.org/CGL_
   description: description
   id: cgl
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/cgl.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/cgl.owl
   preferredPrefix: CGL
   title: Demo test workflow Carles
 - base_uri:
@@ -22,7 +22,7 @@ ontologies:
     Cohort (PNC) plus data developed with the University of Pennsylvania on Alzheimer's
     susceptibility
   id: chop
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/chop.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/chop.owl
   preferredPrefix: CHOP
   title: Center for Applied Genomics, Children's Hospital of Philadelphia
 - base_uri:
@@ -30,14 +30,14 @@ ontologies:
   description: A cohort of Brazilian public servants from 6 large cities that aim
     to investigate chronic disorders and their determinants.
   id: elsabrasil
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/elsabrasil.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/elsabrasil.owl
   preferredPrefix: ELSABRASIL
   title: ELSA-Brasil
 - base_uri:
   - https://purl.ihccglobal.org/GCS_
   description: The data dictionary of items collected by the GCS.
   id: gcs
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/gcs.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/gcs.owl
   preferredPrefix: GCS
   title: Golestan Cohort Study (GCS)
 - base_uri:
@@ -45,7 +45,7 @@ ontologies:
   description: The main programme data dictionary for the Genomics England Research
     Environment.
   id: ge
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/ge.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/ge.owl
   preferredPrefix: GE
   title: Genomics England Main Programme Data
 - base_uri:
@@ -54,7 +54,7 @@ ontologies:
     \ on potential aetiological factors for breast cancer in women.\_ The participants\
     \ are volunteers from the UK general population."
   id: gs
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/gs.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/gs.owl
   preferredPrefix: GS
   title: Generations Study
 - base_uri:
@@ -63,7 +63,7 @@ ontologies:
     HUNT study. They were assessed for cognitive function and diagnosed healty, mci
     or dementia with subtypes.
   id: hunt
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/hunt.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/hunt.owl
   preferredPrefix: HUNT
   title: HUNT 70+, The HUNT Study
 - base_uri:
@@ -71,7 +71,7 @@ ontologies:
   description: The core variables collected in the Korean Genome and Epidemiology
     Study.
   id: koges
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/koges.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/koges.owl
   preferredPrefix: KOGES
   title: Korean Genome and Epidemiology Study (KoGES)
 - base_uri:
@@ -79,14 +79,14 @@ ontologies:
   description: This was a randomized trial of screening for four cancers and also
     a long-term cohort focused on all-cancer outcomes
   id: plco
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/plco.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/plco.owl
   preferredPrefix: PLCO
   title: Prostate, Lung, Colorectal and Ovarian Cancer Screening Trial
 - base_uri:
   - https://purl.ihccglobal.org/SAPRIN_
   description: The core data elements collected by SAPRIN.
   id: saprin
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/saprin.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/saprin.owl
   preferredPrefix: SAPRIN
   title: South African Population Research Infrastructure Network (SAPRIN)
 - base_uri:
@@ -94,7 +94,7 @@ ontologies:
   description: Bioresource created during the course of the United Kingdom Collaborative
     Trial of Ovarian Cancer Screening (UKCTOCS)
   id: uklwc
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/uklwc.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/uklwc.owl
   preferredPrefix: UKLWC
   title: UKCTOCS Longitudinal Women's Cohort (UKLWC)
 - base_uri:
@@ -102,6 +102,6 @@ ontologies:
   description: The data dictionary containing variables collected by the Africa Health
     Research Institute's Vukuzazi programme.
   id: vz
-  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization/master/data_dictionaries/vz.owl
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/vz.owl
   preferredPrefix: VZ
   title: Vukuzazi
