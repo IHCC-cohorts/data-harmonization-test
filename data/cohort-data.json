@@ -222,6 +222,38 @@
       "genomic_data": true,
       "phenotypic_clinical_data": true
     },
+    "cohort_name": "Test Carles",
+    "countries": [
+      "UK"
+    ],
+    "current_enrollment": 200,
+    "enrollment_period": "2018:2020",
+    "irb_approved_data_sharing": true,
+    "pi_lead": "Carles",
+    "questionnaire_survey_data": {
+      "diseases": [
+        "Mental and behaviour disorders"
+      ],
+      "non_pharmacological_interventions": [
+        "Surgical interventions"
+      ],
+      "other_questionnaire_survey_data": [
+        "Reproduction"
+      ]
+    },
+    "survey_administration": [
+      "Date and time-related information"
+    ],
+    "target_enrollment": 400,
+    "website": null
+  },
+  {
+    "available_data_types": {
+      "biospecimens": true,
+      "environmental_data": true,
+      "genomic_data": true,
+      "phenotypic_clinical_data": true
+    },
     "basic_cohort_attributes": {
       "general_variables": [
         "Study design"

@@ -8,6 +8,7 @@
         "CL": "http://purl.obolibrary.org/obo/CL_",
         "CMO": "http://purl.obolibrary.org/obo/CMO_",
         "COB": "http://purl.obolibrary.org/obo/COB_",
+        "CXR": "https://purl.ihccglobal.org/CXR_",
         "EFO": "http://purl.obolibrary.org/obo/EFO_",
         "ELSABRASIL": "https://purl.ihccglobal.org/ELSABRASIL_",
         "GCS": "https://purl.ihccglobal.org/GCS_",
