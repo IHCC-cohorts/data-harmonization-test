@@ -26,6 +26,13 @@ ontologies:
   preferredPrefix: CHOP
   title: Center for Applied Genomics, Children's Hospital of Philadelphia
 - base_uri:
+  - https://purl.ihccglobal.org/CXR_
+  description: Test Synthetic data
+  id: cxr
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/cxr.owl
+  preferredPrefix: CXR
+  title: Test Carles
+- base_uri:
   - https://purl.ihccglobal.org/ELSABRASIL_
   description: A cohort of Brazilian public servants from 6 large cities that aim
     to investigate chronic disorders and their determinants.

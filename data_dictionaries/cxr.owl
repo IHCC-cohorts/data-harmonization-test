@@ -1,0 +1,2303 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://purl.ihccglobal.org/cxr.owl#"
+     xml:base="https://purl.ihccglobal.org/cxr.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:purl="https://purl.ihccglobal.org/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://purl.ihccglobal.org/cxr.owl">
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/cxr/releases/2021-10-19/cxr.owl"/>
+        <dc:description>Test Synthetic data</dc:description>
+        <terms:title>Test Carles</terms:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see also</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/answer-type -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.ihccglobal.org/answer-type">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">answer type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/formula -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.ihccglobal.org/formula">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formula</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/internal-id -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.ihccglobal.org/internal-id">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">internal ID</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/measurement-time -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.ihccglobal.org/measurement-time">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement time</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/number-of-cohorts -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.ihccglobal.org/number-of-cohorts">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of cohorts</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/question-description -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.ihccglobal.org/question-description">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">question description</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/use-cases-requirements -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.ihccglobal.org/use-cases-requirements">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">use cases requirements</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/value -->
+
+    <owl:AnnotationProperty rdf:about="https://purl.ihccglobal.org/value">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">value</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is about</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/has_target -->
+
+    <owl:ObjectProperty rdf:about="https://purl.ihccglobal.org/has_target">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has target</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/measurement_of -->
+
+    <owl:ObjectProperty rdf:about="https://purl.ihccglobal.org/measurement_of">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://purl.ihccglobal.org/output_of -->
+
+    <owl:ObjectProperty rdf:about="https://purl.ihccglobal.org/output_of">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">output of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000001 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000001">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A SNOMED code or a Local EMIS code (Coding 7689) depending on the &apos;code_type&apos; field</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000002 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of code used in &apos;code&apos; field</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000003 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000004 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000004">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special coded values are given in Coding 819.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date clinical code entered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000005 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000005">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The unit for the recorded value, or a special coded value from Coding 1176.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unit recorded for value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000006 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000006">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The value recorded, or a special coded value from Coding 2360.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Value recorded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000007 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000007">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depending on the value of the &apos;code_type&apos; field, items are coded according to the Dictionary of medicines and devices (dm+d), or an EMIS Local Prescription Code (Coding 7678).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000008 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of code used in &apos;code&apos; field</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000009 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000010 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000010">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special coded values are given in Coding 819.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of issue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000011 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000011">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The blood group has been extracted from imputed genotyped data (Showcase Data-Field 23165).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood group of participant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000012 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000013 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000013">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in the construction of the &apos;origin&apos; field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the requesting organisation is from an organisation known to provide acute (emergency) care.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000014 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000014">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000015 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000015">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in the construction of the &apos;origin&apos; field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the sample is recorded as being hospital acquired.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000016 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000016">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The laboratory that processed the sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000017 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000017">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is based on information provided on the specimen request form and may not be reliable. See the COVID-19 test page on Showcase Essential Information for information about how this field is constructed by the data provider.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Field (possibly) indicating whether the patient was an inpatient when the sample was taken.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000018 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000018">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in the construction of the &apos;origin&apos; field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Requesting organisation description.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000019 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000019">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the sample was reported as positive or negative for SARS-CoV-2.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000020 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date the specimen was taken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000021 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000021">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen type as recorded on the laboratory request form (e.g. nasal, nose and throat, sputum)</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000022 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000022">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in the construction of the &apos;origin&apos; field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the requesting organisation is from an organisation known to provide acute (emergency) care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000023 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000023">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000024 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000024">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in the construction of the &apos;origin&apos; field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the sample is recorded as being hospital acquired</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000025 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000025">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The laboratory that processed the sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000026 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000026">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is based on information provided on the specimen request form and may not be reliable. See the COVID-19 test page on Showcase Essential Information for information about how this field is constructed by the data provider.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Field (possibly) indicating whether the patient was an inpatient when the sample was taken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000027 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000027">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Used in the construction of the &apos;origin&apos; field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Requesting organisation description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000028 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the sample was reported as positive or negative for SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000029 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date the specimen was taken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000030 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000030">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen type as recorded on the laboratory request form (e.g. nasal, nose and throat, sputum)</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000031 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000032 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical facility type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000033 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000033">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The laboratory that processed the sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000034 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000034">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the sample was reported as positive or negative for SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000035 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name of medical facility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000036 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000036">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date the specimen was taken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000037 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000037">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000038 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000038">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The laboratory that processed the sample</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000039 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000039">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient type description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000040 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000040">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Description of person tested (e.g. essential worker, inpatient, healthcare worker, education worker). Also provides additional information on whether the individual was asymptomatic or immunocompromised</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID test unit person type description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000041 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000041">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the sample was reported as positive or negative for SARS-CoV-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000042 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000042">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date the specimen was taken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000043 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000043">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen type (e.g. nose swab,  throat swab)</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specimen type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000044 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000044">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A CTV3 code (Coding 7128) or Local TPP code (Coding 8708) depending on the &apos;code_type&apos; field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000045 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000045">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of code used in &apos;code&apos; field</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000046 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000047 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000047">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special coded values are given in Coding 819.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date clinical code entered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000048 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000048">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The value recorded, or a special value from Coding 5702.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Value recorded</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000049 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000049">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Items are coded according to the Dictionary of medicines and devices (dm+d), or given a special coded value from Coding 4214.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Code (dm+d)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000050 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000050">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000051 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000051">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special coded values are given in Coding 819.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of issue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000052 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000052">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of death</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of death</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time-related information</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000053 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000053">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The data source is either E/W for England &amp; Wales or SCOT for Scotland.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000054 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000054">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000055 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000055">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index used to distinguish the cases where we have multiple death records for a participant.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000056 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000056">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The particular data format in which this record was received.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000057 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000057">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid &amp; ins_index uniquely identifies this record, i.e. eid, ins_index &amp; arr_index together form a primary key for this table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Array index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000058 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000058">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coded according to the International Classification of Diseases version 10 (ICD-10).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cause of death - ICD-10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000059 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000059">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000060 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000060">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies the corresponding record in the main DEATH table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000061 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000061">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the cause of death is the primary cause or a contributory cause.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification of cause of death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000062 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000062">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the record originates from England (Vision), Scotland, England (TPP) or Wales.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000063 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000064 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000064">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special coded values are given in Coding 819.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date clinical code was entered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000065 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000065">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read version 2 code.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read v2 code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000066 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000066">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Terms Version 3 code.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTV3 (Read v3) code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000067 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Value recorded 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000068 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000068">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Value recorded 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000069 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000069">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Value recorded 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000070 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000070">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the record originates from England (Vision), Scotland, England (TPP) or Wales.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000071 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000071">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The date of a participant&apos;s removal from GP list. Special coded values are given in Coding 819.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deduction date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000072 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000072">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000073 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000073">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special coded values are given in Coding 819.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Registration date</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000073"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time-related information</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000074 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000074">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">British National Formulary code.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BNF code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000075 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000075">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the record originates from England (Vision), Scotland, England (TPP) or Wales.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data provider</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000076 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000076">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dictionary of medicines and devices (dm+d) code.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dm+d code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000077 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000077">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000078 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000078">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000079 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000079">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Special coded values are given in Coding 819.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date prescription was issued</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000080 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000080">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantity issued</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000081 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000081">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read version 2 code.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Read v2 code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000082 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000082">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of admission to hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000083 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000083">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method of admission to hospital identifies how a patient was admitted, e.g. an elective admission from a waiting list or an emergency admission, etc.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods of admission to hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000084 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000084">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field providing a unified coding across the various sources for the admimeth field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Methods of admission to hospital (recoded)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000085 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000085">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source of admission identifies whether a patient came to the hospital from their usual place of residence or elsewhere.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sources of admission to hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000086 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000086">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field providing a unified coding across the various sources for the admisorc field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sources of admission to hospital (recoded)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000087 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000087">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration of episode within HES data year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000088 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000088">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carer support indicator identifies whether a carer is available to the patient at their usual place of residence.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carer support indicator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000089 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000089">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administrative and legal status identifies the type of patient and whether they have been formally detained under the Mental Health Act or not.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Administrative and legal status of patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000090 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000090">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient classification on admission identifies the type of patient, e.g. whether they are a regular attender or a maternity admission, etc.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient classification on admission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000091 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000091">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field providing a unified coding across the various sources for the classpat field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient classification on admission (recoded)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000092 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000092">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of discharge from hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000093 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000093">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Destination on discharge identifies whether a patient was due to return to their usual place of residence on leaving hospital, or whether they were due to go elsewhere.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Destination on discharge from hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000094 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000094">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field providing a unified coding across the various sources for the disdest field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Destination on discharge from hospital (recoded)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000095 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000095">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method of discharge from hospital identifies how a patient was discharged i.e. whether this was on clinical advice, the patient died in hospital or the patient discharged themselves.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method of discharge from hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000096 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000096">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field providing a unified coding across the various sources for the dismeth field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method of discharge from hospital (recoded)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000097 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000097">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Either HES (England), PEDW (Wales) or SMR (Scotland). This can affect the coding used for some data fields.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inpatient record origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000098 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000098">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000099 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000099">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not available for dsource=&apos;PEDW&apos;, or for source = 68 (one of the formats for dsource=&apos;SMR&apos;).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of decision to admit to hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000100 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000100">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Not available for dsource=&apos;PEDW&apos;, or for source = 68 (one of the formats for dsource=&apos;SMR&apos;).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waiting time for hospital admission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000101 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000101">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The difference in days between the episode start date and the episode end date, where both are given.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration of episode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000102 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000102">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episode end date</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000102"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time-related information</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000103 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000103">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The position of this episode within a spell (starting at 1).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episode order</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000103"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey administration</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000104 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000104">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episode start date</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time-related information</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000105 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000105">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the episode had finished before the end of the HES data-year. An unfinished episode would be replaced by its finished version when the data is next updated.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episode status</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000105"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time-related information</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000106 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000106">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hospital episode type identifies whether the period of care in hospital was, for example, a general episode, a maternity episode or a psychiatric episode.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Episode type</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000106"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey administration</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000107 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First regular day or night of admission to hosp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000108 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000108">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PCT code identifies the administrative body where the patients GP practice is registered.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCT where patients GP was registered</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000109 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000109">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies this record, i.e. eid &amp; ins_index together form a primary key for this table. The ins_index will not generally index records in chronological order, and may contain gaps in the numbering if records were added and then later removed for some reason.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000110 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000110">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The intended management of a patient is their planned duration of hospital stay, i.e. whether an overnight stay was anticipated or not.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intended management of patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000111 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000111">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field providing a unified coding across the various sources for the intmanag field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intended management of patient (recoded)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000112 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000112">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The main speciality of the consultant is the specialism under which the consultant is contracted e.g. cardiology or geriatric medicine, etc.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Main speciality of consultant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000113 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000113">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field providing a unified coding across the various sources for the mainspef field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Main speciality of consultant (recoded)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000114 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000114">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether an operation/procedure was carried out as part of this episode.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000092</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operation status</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000114"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000092</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surgical interventions</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000115 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000115">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The PCT code identifies the administrative body responsible for the patient.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Current PCT responsible for patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000116 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000116">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A finer split of the format of data released from each dsource above. This can also affect the coding used for some data fields.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inpatient record format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000117 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000117">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indicator that this episode is the first in a spell. Only present in English inpatient data (dsource = HES).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beginning of spell indicator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000117"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey administration</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000118 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000118">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration of spell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000118"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STATO:0000093</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date and time-related information</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000119 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000119">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An indicator that this episode is the last in a spell. Only present in English inpatient data (dsource = HES).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">End of spell indicator</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000119"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey administration</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000120 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000120">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index indicating which spell this episode belongs to (where possible). Spells will not generally be indexed in chronological order.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spell index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000121 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000121">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index, starting from 0, giving the chronological position within its spell that this episode occupies (where possible).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spell sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000122 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000122">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment speciality of the consultant is the specialism under which the consultant was working e.g. cardiology or geriatric medicine, etc.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment speciality of consultant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000123 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000123">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A field providing a unified coding across the various sources for the tretspef field.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment speciality of consultant (recoded)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000124 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000124">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid &amp; ins_index uniquely identifies this record, i.e. eid, ins_index &amp; arr_index together form a primary key for this table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Array index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000125 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000125">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resuscitation method identifies whether any procedures were required to get the baby breathing normally; for example: positive pressure (nil/by mask/by endotracheal tube) and whether drugs were administered.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resuscitation method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000125"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000126 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000126">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No longer available for source=71 (April 2018) onwards.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birth order</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000126"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000127 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000127">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status baby identifies whether the baby was born alive or stillborn (ante-partum or intra-partum). No longer available for source=71 (April 2018) onwards.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of baby at birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000128 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000128">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No longer available for source=71 (April 2018) onwards.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight of baby</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000129 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000129">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery method identifies the way in which the baby was born; for example: spontaneous, forceps, breech or caesarean section.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000129"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000130 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000130">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery place identifies where the birth took place; for example: NHS hospital (with ward information) or at a domestic address.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery place</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000130"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000131 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000131">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of person conducting delivery identifies whether a doctor, GP or midwife was present at the birth.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of person conducting delivery</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000131"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000132 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000132">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of birth of baby</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000133 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000133">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000134 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000134">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of weeks of gestation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000135 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000135">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table and the HESIN_MATERNITY table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000136 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000136">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex of baby determines whether the baby was male, female or indeterminate. No longer available for source=71  (April 2018) onwards.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex of baby</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000136"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000137 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000137">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of advanced cardiovascular support. For the definition of advanced cardiovascular support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Advanced cardiovascular support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000138 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000138">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of advanced respiratory support. For the definition of advanced respiratory support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Advanced respiratory support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000139 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000139">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid and ins_index uniquely identifies this record, i.e. eid, ins_index and arr_index together form a primary key for this table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Array index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000140 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000140">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of basic cardiovascular support.  For the definition of basic cardiovascular support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic cardiovascular support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000141 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000141">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of basic respiratory support. For the definition of basic respiratory support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic respiratory support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000142 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000142">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the patient originated from the same or a different NHS hospital, an independent hospital provider, a non-hospital UK source, or a non-UK source.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source of admission to critical care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000143 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000143">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether a critical care period was initiated as a result of a non-emergency treatment plan, for example, for non-elective surgery. This relates only to the period of critical care and not to the nature of the hospital admission.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care admission type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000144 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000144">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A comparison of the dates of the critical care period and those of the associated admitted patient care episode.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care APC relationship id</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000145 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000145">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discharge date from unit if alive, date of death or date of declaration of brain stem death.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of discharge from critical care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000146 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000146">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whether the patient was discharged to the same or a different NHS hospital, an independent hospital provider, a non-hospital UK destination or to a non-UK source, or whether the patient died in the unit.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care discharge destination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000147 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000147">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The principal location that the patient was discharged to for further care at the end of the critical care period.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care discharge location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000148 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000148">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The date on which the patient has been declared clinically ready for discharge or transfer from the clinical care period.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ready-to-discharge date from critical care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000149 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000149">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The patient status at time of discharge, for example whether they were fully ready for discharge, whether their discharge was early or delayed, whether they self-discharged, or whether they died rather than being discharged (and their organ-donor status if so).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care discharge status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000150 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000150">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total calendar days during which level 2 care alone was provided during the period.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care level 2 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000151 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000151">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total calendar days during which level 3 care alone was provided during the period.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care level 3 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000152 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000152">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The type of location the patient was in prior to the start of the critical care period.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location of the source of admission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000153 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000153">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date on which the critical care period started</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000154 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000154">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The type of area to which the patient was admitted during a critical care period. This is the principal clinical service provided within the ward.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care unit function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000155 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000155">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of dermatological support. For the definition of dermatological support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dermatological support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000156 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000156">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Currently only HES (England).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care record origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000157 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000157">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000158 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000158">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of gastrointestinal support. For the definition of gastrointestinal support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gastrointestinal support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000159 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000159">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000160 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000160">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of liver support. For the definition of liver support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liver support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000161 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000161">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of neurological support.  For the definition of neurological support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurological support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000162 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000162">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maximum number of organ systems supported at any one time, at any point in the critical care period (note that both basic and advanced categories cannot be counted at the same time). This may not be the same as the total number of organs supported throughout the critical care admission. The minimum for this variable is 0 and the maximum is 7.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organ support maximum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000163 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000163">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of days of renal support in the context of critical illness. For the definition of renal support see Resource 141140 or the NHS CC Data Dictionary.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renal support days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000164 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000164">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A finer split of the format of data released from each dsource. Currently only 60.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care record format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000165 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000165">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The composition of bed types for the critical care unit.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Critical care unit bed configuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000166 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000166">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid &amp; ins_index uniquely identifies this record, i.e. eid, ins_index &amp; arr_index together form a primary key for this table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Array index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000167 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000167">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resuscitation method identifies whether any procedures were required to get the baby breathing normally; for example: positive pressure (nil/by mask/by endotracheal tube) and whether drugs were administered.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resuscitation method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000167"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000168 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000168">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No longer available for source=71 (April 2018) onwards.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birth order</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000168"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000169 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000169">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status baby identifies whether the baby was born alive or stillborn (ante-partum or intra-partum). No longer available for source=71 (April 2018) onwards.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of baby at birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000170 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000170">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No longer available for source=71 (April 2018) onwards.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight of baby</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000171 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000171">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery method identifies the way in which the baby was born; for example: spontaneous, forceps, breech or caesarean section.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000171"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000172 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000172">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery place identifies where the birth took place; for example: NHS hospital (with ward information) or at a domestic address.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery place</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000172"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000173 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000173">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of person conducting delivery identifies whether a doctor, GP or midwife was present at the birth.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Status of person conducting delivery</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000173"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000174 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000174">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000175 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000175">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of weeks of gestation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000176 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000176">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table and the HESIN_MATERNITY table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000177 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000177">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex of baby determines whether the baby was male, female or indeterminate. No longer available for source=71  (April 2018) onwards.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex of baby</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000177"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000178 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000178">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid &amp; ins_index uniquely identifies this record, i.e. eid, ins_index &amp; arr_index together form a primary key for this table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Array index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000179 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000179">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnoses are coded according to the International Classification of Diseases version-10 (ICD 10).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnoses - ICD10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000180 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000180">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnoses - ICD10 addendum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000181 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000181">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnoses are coded according to the International Classification of Diseases version-9 (ICD 9).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnoses - ICD9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000182 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000182">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnoses - ICD9 addendum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000183 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000183">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000184 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000184">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000185 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000185">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The primary diagnosis is the main condition treated or investigated during the relevant episode. A secondary diagnosis is a clinically relevant contributory factor or issue that impacts on the primary diagnosis (including chronic conditions). An external cause is an environmental event causing injury, poisoning or other type of adverse effect.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification of diagnosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000186 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000186">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gestation period at first antenatal assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000187 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000187">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of first antenatal assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000188 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000188">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antenatal days of stay</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000188"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000189 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000189">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reason for changing delivery place identifies whether a decision was made during pregnancy or labour, and the reasons for the change (address change, clinical or other reasons).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reason for changing delivery place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000190 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000190">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intended delivery place identifies where the birth was planned to take place; for example: NHS hospital (with ward information) or at a domestic address.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intended delivery place</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000190"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000191 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000191">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery onset method identifies whether the onset of labour was spontaneous or clinically induced.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery onset method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000191"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000192 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000192">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This field identifies, for example, whether a general anaesthetic or an epidural was administered after labour or not.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaesthetic delivered post delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000193 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000193">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This field identifies, for example, whether a general anaesthetic or an epidural was administered either before or during labour.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anaesthetic administered during delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000194 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000194">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000195 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000195">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies this record, i.e. eid &amp; ins_index together form a primary key for this table. The ins_index will not generally index records in chronological order. The record in HESIN corresponding to a particular HESIN_MATERNITY record will have the same eid &amp; ins_index.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000196 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000196">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mother age on date of delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000197 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000197">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No longer available for source=71 (April 2018) onwards.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of babies delivered from single pregnancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000198 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000198">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of previous pregnancies†</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000198"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000199 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000199">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Postnatal stay</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000199"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000200 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000200">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid &amp; ins_index uniquely identifies this record, i.e. eid, ins_index &amp; arr_index together form a primary key for this table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Array index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000201 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000201">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000202 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000202">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000203 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000203">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification of operation/procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000204 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000204">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of operation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000205 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000205">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operative procedures are coded according to the Office of Population Censuses and Surveys Classification of Interventions and Procedures, version 3 (OPCS-3).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operative procedures - OPCS3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000206 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000206">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operative Procedures - OPCS3 addendum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000207 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000207">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operative procedures are coded according to the Office of Population Censuses and Surveys Classification of Interventions and Procedures, version 4 (OPCS-4).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operative procedures - OPCS4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000208 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operative Procedures - OPCS4 addendum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000209 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000209">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration of post-operative stay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000210 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000210">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration of pre-operative stay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000211 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000211">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of psychiatric care identifies whether a patient has previously had a psychiatric episode in hospital or not.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">History of psychiatric care on admission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000212 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000212">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detention category identifies the legislation under which the patient was detained.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detention category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000213 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000213">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0005084</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detention date</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000213"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0005084</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental and behaviour disorders</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000214 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000214">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This identifier is the same encoded id used in the main dataset.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Encoded participant identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000215 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000215">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A numerical index which together with the eid uniquely identifies this record, i.e. eid &amp; ins_index together form a primary key for this table. The ins_index will not generally index records in chronological order. The record in HESIN corresponding to a particular HESIN_PSYCH record will have the same eid &amp; ins_index.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instance index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000216 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000216">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legal status determines whether the patient was formally or informally detained and the relevant section of the Mental Health Act under which they were detained.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legal status of patient</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CXR_0000216"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey administration</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/CXR_0000217 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/CXR_0000217">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The mental categories are in accordance with the Mental Health Act 1983; for example, mental illness, (severe) mental impairment, psychopathic disorder.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental category of patient</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

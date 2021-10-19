@@ -1,0 +1,218 @@
+Term ID	Label	Parent Term	Definition	GECKO Category	Internal ID	Suggested Categories	Comment
+CXR:0000001	Clinical code		A SNOMED code or a Local EMIS code (Coding 7689) depending on the 'code_type' field				
+CXR:0000002	Type of code used in 'code' field						
+CXR:0000003	Encoded participant identifier						
+CXR:0000004	Date clinical code entered		Special coded values are given in Coding 819.				
+CXR:0000005	Unit recorded for value		The unit for the recorded value, or a special coded value from Coding 1176.				
+CXR:0000006	Value recorded		The value recorded, or a special coded value from Coding 2360.				
+CXR:0000007	Clinical code		Depending on the value of the 'code_type' field, items are coded according to the Dictionary of medicines and devices (dm+d), or an EMIS Local Prescription Code (Coding 7678).				
+CXR:0000008	Type of code used in 'code' field						
+CXR:0000009	Encoded participant identifier						
+CXR:0000010	Date of issue		Special coded values are given in Coding 819.				
+CXR:0000011	Blood group of participant		The blood group has been extracted from imputed genotyped data (Showcase Data-Field 23165).				
+CXR:0000012	Encoded participant identifier						
+CXR:0000013	Whether the requesting organisation is from an organisation known to provide acute (emergency) care.		Used in the construction of the 'origin' field.				
+CXR:0000014	Encoded participant identifier						
+CXR:0000015	Whether the sample is recorded as being hospital acquired.		Used in the construction of the 'origin' field.				
+CXR:0000016	The laboratory that processed the sample						
+CXR:0000017	Field (possibly) indicating whether the patient was an inpatient when the sample was taken.		This is based on information provided on the specimen request form and may not be reliable. See the COVID-19 test page on Showcase Essential Information for information about how this field is constructed by the data provider.				
+CXR:0000018	Requesting organisation description.		Used in the construction of the 'origin' field.				
+CXR:0000019	Whether the sample was reported as positive or negative for SARS-CoV-2.						
+CXR:0000020	Date the specimen was taken						
+CXR:0000021	Specimen type		Specimen type as recorded on the laboratory request form (e.g. nasal, nose and throat, sputum)				
+CXR:0000022	Whether the requesting organisation is from an organisation known to provide acute (emergency) care		Used in the construction of the 'origin' field.				
+CXR:0000023	Encoded participant identifier						
+CXR:0000024	Whether the sample is recorded as being hospital acquired		Used in the construction of the 'origin' field.				
+CXR:0000025	The laboratory that processed the sample						
+CXR:0000026	Field (possibly) indicating whether the patient was an inpatient when the sample was taken		This is based on information provided on the specimen request form and may not be reliable. See the COVID-19 test page on Showcase Essential Information for information about how this field is constructed by the data provider.				
+CXR:0000027	Requesting organisation description		Used in the construction of the 'origin' field.				
+CXR:0000028	Whether the sample was reported as positive or negative for SARS-CoV-2						
+CXR:0000029	Date the specimen was taken						
+CXR:0000030	Specimen type		Specimen type as recorded on the laboratory request form (e.g. nasal, nose and throat, sputum)				
+CXR:0000031	Encoded participant identifier						
+CXR:0000032	Medical facility type						
+CXR:0000033	The laboratory that processed the sample						
+CXR:0000034	Whether the sample was reported as positive or negative for SARS-CoV-2						
+CXR:0000035	Name of medical facility						
+CXR:0000036	Date the specimen was taken						
+CXR:0000037	Encoded participant identifier						
+CXR:0000038	The laboratory that processed the sample						
+CXR:0000039	Patient type description						
+CXR:0000040	COVID test unit person type description		Description of person tested (e.g. essential worker, inpatient, healthcare worker, education worker). Also provides additional information on whether the individual was asymptomatic or immunocompromised				
+CXR:0000041	Whether the sample was reported as positive or negative for SARS-CoV-2						
+CXR:0000042	Date the specimen was taken						
+CXR:0000043	Specimen type		Specimen type (e.g. nose swab,  throat swab)				
+CXR:0000044	Clinical code		A CTV3 code (Coding 7128) or Local TPP code (Coding 8708) depending on the 'code_type' field.				
+CXR:0000045	Type of code used in 'code' field						
+CXR:0000046	Encoded participant identifier						
+CXR:0000047	Date clinical code entered		Special coded values are given in Coding 819.				
+CXR:0000048	Value recorded		The value recorded, or a special value from Coding 5702.				
+CXR:0000049	Clinical Code (dm+d)		Items are coded according to the Dictionary of medicines and devices (dm+d), or given a special coded value from Coding 4214.				
+CXR:0000050	Encoded participant identifier						
+CXR:0000051	Date of issue		Special coded values are given in Coding 819.				
+CXR:0000052	Date of death		Date of death	date and time-related information			
+CXR:0000053	Data source		The data source is either E/W for England & Wales or SCOT for Scotland.				
+CXR:0000054	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000055	Instance index		A numerical index used to distinguish the cases where we have multiple death records for a participant.				
+CXR:0000056	Data format		The particular data format in which this record was received.				
+CXR:0000057	Array index		A numerical index which together with the eid & ins_index uniquely identifies this record, i.e. eid, ins_index & arr_index together form a primary key for this table.				
+CXR:0000058	Cause of death - ICD-10		Coded according to the International Classification of Diseases version 10 (ICD-10).				
+CXR:0000059	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000060	Instance index		A numerical index which together with the eid uniquely identifies the corresponding record in the main DEATH table.				
+CXR:0000061	Classification of cause of death		Whether the cause of death is the primary cause or a contributory cause.				
+CXR:0000062	Data provider		Whether the record originates from England (Vision), Scotland, England (TPP) or Wales.				
+CXR:0000063	Encoded participant identifier						
+CXR:0000064	Date clinical code was entered		Special coded values are given in Coding 819.				
+CXR:0000065	Read v2 code		Read version 2 code.				
+CXR:0000066	CTV3 (Read v3) code		Clinical Terms Version 3 code.				
+CXR:0000067	Value recorded 1						
+CXR:0000068	Value recorded 2						
+CXR:0000069	Value recorded 3						
+CXR:0000070	Data provider		Whether the record originates from England (Vision), Scotland, England (TPP) or Wales.				
+CXR:0000071	Deduction date		The date of a participant's removal from GP list. Special coded values are given in Coding 819.				
+CXR:0000072	Encoded participant identifier						
+CXR:0000073	Registration date		Special coded values are given in Coding 819.	date and time-related information			
+CXR:0000074	BNF code		British National Formulary code.				
+CXR:0000075	Data provider		Whether the record originates from England (Vision), Scotland, England (TPP) or Wales.				
+CXR:0000076	dm+d code		Dictionary of medicines and devices (dm+d) code.				
+CXR:0000077	Drug name						
+CXR:0000078	Encoded participant identifier						
+CXR:0000079	Date prescription was issued		Special coded values are given in Coding 819.				
+CXR:0000080	Quantity issued						
+CXR:0000081	Read v2 code		Read version 2 code.				
+CXR:0000082	Date of admission to hospital						
+CXR:0000083	Methods of admission to hospital		Method of admission to hospital identifies how a patient was admitted, e.g. an elective admission from a waiting list or an emergency admission, etc.				
+CXR:0000084	Methods of admission to hospital (recoded)		A field providing a unified coding across the various sources for the admimeth field.				
+CXR:0000085	Sources of admission to hospital		Source of admission identifies whether a patient came to the hospital from their usual place of residence or elsewhere.				
+CXR:0000086	Sources of admission to hospital (recoded)		A field providing a unified coding across the various sources for the admisorc field.				
+CXR:0000087	Duration of episode within HES data year						
+CXR:0000088	Carer support indicator		Carer support indicator identifies whether a carer is available to the patient at their usual place of residence.				
+CXR:0000089	Administrative and legal status of patient		Administrative and legal status identifies the type of patient and whether they have been formally detained under the Mental Health Act or not.				
+CXR:0000090	Patient classification on admission		Patient classification on admission identifies the type of patient, e.g. whether they are a regular attender or a maternity admission, etc.				
+CXR:0000091	Patient classification on admission (recoded)		A field providing a unified coding across the various sources for the classpat field.				
+CXR:0000092	Date of discharge from hospital						
+CXR:0000093	Destination on discharge from hospital		Destination on discharge identifies whether a patient was due to return to their usual place of residence on leaving hospital, or whether they were due to go elsewhere.				
+CXR:0000094	Destination on discharge from hospital (recoded)		A field providing a unified coding across the various sources for the disdest field.				
+CXR:0000095	Method of discharge from hospital		Method of discharge from hospital identifies how a patient was discharged i.e. whether this was on clinical advice, the patient died in hospital or the patient discharged themselves.				
+CXR:0000096	Method of discharge from hospital (recoded)		A field providing a unified coding across the various sources for the dismeth field.				
+CXR:0000097	Inpatient record origin		Either HES (England), PEDW (Wales) or SMR (Scotland). This can affect the coding used for some data fields.				
+CXR:0000098	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000099	Date of decision to admit to hospital		Not available for dsource='PEDW', or for source = 68 (one of the formats for dsource='SMR').				
+CXR:0000100	Waiting time for hospital admission		Not available for dsource='PEDW', or for source = 68 (one of the formats for dsource='SMR').				
+CXR:0000101	Duration of episode		The difference in days between the episode start date and the episode end date, where both are given.				
+CXR:0000102	Episode end date			date and time-related information			
+CXR:0000103	Episode order		The position of this episode within a spell (starting at 1).	survey administration			
+CXR:0000104	Episode start date			date and time-related information			
+CXR:0000105	Episode status		Whether the episode had finished before the end of the HES data-year. An unfinished episode would be replaced by its finished version when the data is next updated.	date and time-related information			
+CXR:0000106	Episode type		Hospital episode type identifies whether the period of care in hospital was, for example, a general episode, a maternity episode or a psychiatric episode.	survey administration			
+CXR:0000107	First regular day or night of admission to hosp						
+CXR:0000108	PCT where patients GP was registered		The PCT code identifies the administrative body where the patients GP practice is registered.				
+CXR:0000109	Instance index		A numerical index which together with the eid uniquely identifies this record, i.e. eid & ins_index together form a primary key for this table. The ins_index will not generally index records in chronological order, and may contain gaps in the numbering if records were added and then later removed for some reason.				
+CXR:0000110	Intended management of patient		The intended management of a patient is their planned duration of hospital stay, i.e. whether an overnight stay was anticipated or not.				
+CXR:0000111	Intended management of patient (recoded)		A field providing a unified coding across the various sources for the intmanag field.				
+CXR:0000112	Main speciality of consultant		The main speciality of the consultant is the specialism under which the consultant is contracted e.g. cardiology or geriatric medicine, etc.				
+CXR:0000113	Main speciality of consultant (recoded)		A field providing a unified coding across the various sources for the mainspef field.				
+CXR:0000114	Operation status		Whether an operation/procedure was carried out as part of this episode.	surgical interventions			
+CXR:0000115	Current PCT responsible for patient		The PCT code identifies the administrative body responsible for the patient.				
+CXR:0000116	Inpatient record format		A finer split of the format of data released from each dsource above. This can also affect the coding used for some data fields.				
+CXR:0000117	Beginning of spell indicator		An indicator that this episode is the first in a spell. Only present in English inpatient data (dsource = HES).	survey administration			
+CXR:0000118	Duration of spell			date and time-related information			
+CXR:0000119	End of spell indicator		An indicator that this episode is the last in a spell. Only present in English inpatient data (dsource = HES).	survey administration			
+CXR:0000120	Spell index		A numerical index indicating which spell this episode belongs to (where possible). Spells will not generally be indexed in chronological order.				
+CXR:0000121	Spell sequence		A numerical index, starting from 0, giving the chronological position within its spell that this episode occupies (where possible).				
+CXR:0000122	Treatment speciality of consultant		The treatment speciality of the consultant is the specialism under which the consultant was working e.g. cardiology or geriatric medicine, etc.				
+CXR:0000123	Treatment speciality of consultant (recoded)		A field providing a unified coding across the various sources for the tretspef field.				
+CXR:0000124	Array index		A numerical index which together with the eid & ins_index uniquely identifies this record, i.e. eid, ins_index & arr_index together form a primary key for this table.				
+CXR:0000125	Resuscitation method		Resuscitation method identifies whether any procedures were required to get the baby breathing normally; for example: positive pressure (nil/by mask/by endotracheal tube) and whether drugs were administered.	reproduction			
+CXR:0000126	Birth order		No longer available for source=71 (April 2018) onwards.	reproduction			
+CXR:0000127	Status of baby at birth		Status baby identifies whether the baby was born alive or stillborn (ante-partum or intra-partum). No longer available for source=71 (April 2018) onwards.				
+CXR:0000128	Weight of baby		No longer available for source=71 (April 2018) onwards.				
+CXR:0000129	Delivery method		Delivery method identifies the way in which the baby was born; for example: spontaneous, forceps, breech or caesarean section.	reproduction			
+CXR:0000130	Delivery place		Delivery place identifies where the birth took place; for example: NHS hospital (with ward information) or at a domestic address.	reproduction			
+CXR:0000131	Status of person conducting delivery		Status of person conducting delivery identifies whether a doctor, GP or midwife was present at the birth.	reproduction			
+CXR:0000132	Date of birth of baby						
+CXR:0000133	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000134	Number of weeks of gestation						
+CXR:0000135	Instance index		A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table and the HESIN_MATERNITY table.				
+CXR:0000136	Sex of baby		Sex of baby determines whether the baby was male, female or indeterminate. No longer available for source=71  (April 2018) onwards.	reproduction			
+CXR:0000137	Advanced cardiovascular support days		Number of days of advanced cardiovascular support. For the definition of advanced cardiovascular support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000138	Advanced respiratory support days		Number of days of advanced respiratory support. For the definition of advanced respiratory support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000139	Array index		A numerical index which together with the eid and ins_index uniquely identifies this record, i.e. eid, ins_index and arr_index together form a primary key for this table.				
+CXR:0000140	Basic cardiovascular support days		Number of days of basic cardiovascular support.  For the definition of basic cardiovascular support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000141	Basic respiratory support days		Number of days of basic respiratory support. For the definition of basic respiratory support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000142	Source of admission to critical care		Whether the patient originated from the same or a different NHS hospital, an independent hospital provider, a non-hospital UK source, or a non-UK source.				
+CXR:0000143	Critical care admission type		Whether a critical care period was initiated as a result of a non-emergency treatment plan, for example, for non-elective surgery. This relates only to the period of critical care and not to the nature of the hospital admission.				
+CXR:0000144	Critical care APC relationship id		A comparison of the dates of the critical care period and those of the associated admitted patient care episode.				
+CXR:0000145	Date of discharge from critical care		Discharge date from unit if alive, date of death or date of declaration of brain stem death.				
+CXR:0000146	Critical care discharge destination		Whether the patient was discharged to the same or a different NHS hospital, an independent hospital provider, a non-hospital UK destination or to a non-UK source, or whether the patient died in the unit.				
+CXR:0000147	Critical care discharge location		The principal location that the patient was discharged to for further care at the end of the critical care period.				
+CXR:0000148	Ready-to-discharge date from critical care		The date on which the patient has been declared clinically ready for discharge or transfer from the clinical care period.				
+CXR:0000149	Critical care discharge status		The patient status at time of discharge, for example whether they were fully ready for discharge, whether their discharge was early or delayed, whether they self-discharged, or whether they died rather than being discharged (and their organ-donor status if so).				
+CXR:0000150	Critical care level 2 days		Total calendar days during which level 2 care alone was provided during the period.				
+CXR:0000151	Critical care level 3 days		Total calendar days during which level 3 care alone was provided during the period.				
+CXR:0000152	Location of the source of admission		The type of location the patient was in prior to the start of the critical care period.				
+CXR:0000153	Date on which the critical care period started						
+CXR:0000154	Critical care unit function		The type of area to which the patient was admitted during a critical care period. This is the principal clinical service provided within the ward.				
+CXR:0000155	Dermatological support days		Number of days of dermatological support. For the definition of dermatological support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000156	Critical care record origin		Currently only HES (England).				
+CXR:0000157	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000158	Gastrointestinal support days		Number of days of gastrointestinal support. For the definition of gastrointestinal support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000159	Instance index		A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table.				
+CXR:0000160	Liver support days		Number of days of liver support. For the definition of liver support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000161	Neurological support days		Number of days of neurological support.  For the definition of neurological support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000162	Organ support maximum		Maximum number of organ systems supported at any one time, at any point in the critical care period (note that both basic and advanced categories cannot be counted at the same time). This may not be the same as the total number of organs supported throughout the critical care admission. The minimum for this variable is 0 and the maximum is 7.				
+CXR:0000163	Renal support days		Number of days of renal support in the context of critical illness. For the definition of renal support see Resource 141140 or the NHS CC Data Dictionary.				
+CXR:0000164	Critical care record format		A finer split of the format of data released from each dsource. Currently only 60.				
+CXR:0000165	Critical care unit bed configuration		The composition of bed types for the critical care unit.				
+CXR:0000166	Array index		A numerical index which together with the eid & ins_index uniquely identifies this record, i.e. eid, ins_index & arr_index together form a primary key for this table.				
+CXR:0000167	Resuscitation method		Resuscitation method identifies whether any procedures were required to get the baby breathing normally; for example: positive pressure (nil/by mask/by endotracheal tube) and whether drugs were administered.	reproduction			
+CXR:0000168	Birth order		No longer available for source=71 (April 2018) onwards.	reproduction			
+CXR:0000169	Status of baby at birth		Status baby identifies whether the baby was born alive or stillborn (ante-partum or intra-partum). No longer available for source=71 (April 2018) onwards.				
+CXR:0000170	Weight of baby		No longer available for source=71 (April 2018) onwards.				
+CXR:0000171	Delivery method		Delivery method identifies the way in which the baby was born; for example: spontaneous, forceps, breech or caesarean section.	reproduction			
+CXR:0000172	Delivery place		Delivery place identifies where the birth took place; for example: NHS hospital (with ward information) or at a domestic address.	reproduction			
+CXR:0000173	Status of person conducting delivery		Status of person conducting delivery identifies whether a doctor, GP or midwife was present at the birth.	reproduction			
+CXR:0000174	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000175	Number of weeks of gestation						
+CXR:0000176	Instance index		A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table and the HESIN_MATERNITY table.				
+CXR:0000177	Sex of baby		Sex of baby determines whether the baby was male, female or indeterminate. No longer available for source=71  (April 2018) onwards.	reproduction			
+CXR:0000178	Array index		A numerical index which together with the eid & ins_index uniquely identifies this record, i.e. eid, ins_index & arr_index together form a primary key for this table.				
+CXR:0000179	Diagnoses - ICD10		Diagnoses are coded according to the International Classification of Diseases version-10 (ICD 10).				
+CXR:0000180	Diagnoses - ICD10 addendum						
+CXR:0000181	Diagnoses - ICD9		Diagnoses are coded according to the International Classification of Diseases version-9 (ICD 9).				
+CXR:0000182	Diagnoses - ICD9 addendum						
+CXR:0000183	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000184	Instance index		A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table.				
+CXR:0000185	Classification of diagnosis		The primary diagnosis is the main condition treated or investigated during the relevant episode. A secondary diagnosis is a clinically relevant contributory factor or issue that impacts on the primary diagnosis (including chronic conditions). An external cause is an environmental event causing injury, poisoning or other type of adverse effect.				
+CXR:0000186	Gestation period at first antenatal assessment						
+CXR:0000187	Date of first antenatal assessment						
+CXR:0000188	Antenatal days of stay			reproduction			
+CXR:0000189	Reason for changing delivery place		Reason for changing delivery place identifies whether a decision was made during pregnancy or labour, and the reasons for the change (address change, clinical or other reasons).				
+CXR:0000190	Intended delivery place		Intended delivery place identifies where the birth was planned to take place; for example: NHS hospital (with ward information) or at a domestic address.	reproduction			
+CXR:0000191	Delivery onset method		Delivery onset method identifies whether the onset of labour was spontaneous or clinically induced.	reproduction			
+CXR:0000192	Anaesthetic delivered post delivery		This field identifies, for example, whether a general anaesthetic or an epidural was administered after labour or not.				
+CXR:0000193	Anaesthetic administered during delivery		This field identifies, for example, whether a general anaesthetic or an epidural was administered either before or during labour.				
+CXR:0000194	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000195	Instance index		A numerical index which together with the eid uniquely identifies this record, i.e. eid & ins_index together form a primary key for this table. The ins_index will not generally index records in chronological order. The record in HESIN corresponding to a particular HESIN_MATERNITY record will have the same eid & ins_index.				
+CXR:0000196	Mother age on date of delivery						
+CXR:0000197	Number of babies delivered from single pregnancy		No longer available for source=71 (April 2018) onwards.				
+CXR:0000198	Number of previous pregnancies†			reproduction			
+CXR:0000199	Postnatal stay			reproduction			
+CXR:0000200	Array index		A numerical index which together with the eid & ins_index uniquely identifies this record, i.e. eid, ins_index & arr_index together form a primary key for this table.				
+CXR:0000201	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000202	Instance index		A numerical index which together with the eid uniquely identifies the corresponding record in the main HESIN table.				
+CXR:0000203	Classification of operation/procedure						
+CXR:0000204	Date of operation						
+CXR:0000205	Operative procedures - OPCS3		Operative procedures are coded according to the Office of Population Censuses and Surveys Classification of Interventions and Procedures, version 3 (OPCS-3).				
+CXR:0000206	Operative Procedures - OPCS3 addendum						
+CXR:0000207	Operative procedures - OPCS4		Operative procedures are coded according to the Office of Population Censuses and Surveys Classification of Interventions and Procedures, version 4 (OPCS-4).				
+CXR:0000208	Operative Procedures - OPCS4 addendum						
+CXR:0000209	Duration of post-operative stay						
+CXR:0000210	Duration of pre-operative stay						
+CXR:0000211	History of psychiatric care on admission		History of psychiatric care identifies whether a patient has previously had a psychiatric episode in hospital or not.				
+CXR:0000212	Detention category		Detention category identifies the legislation under which the patient was detained.				
+CXR:0000213	Detention date			mental and behaviour disorders			
+CXR:0000214	Encoded participant identifier		This identifier is the same encoded id used in the main dataset.				
+CXR:0000215	Instance index		A numerical index which together with the eid uniquely identifies this record, i.e. eid & ins_index together form a primary key for this table. The ins_index will not generally index records in chronological order. The record in HESIN corresponding to a particular HESIN_PSYCH record will have the same eid & ins_index.				
+CXR:0000216	Legal status of patient		Legal status determines whether the patient was formally or informally detained and the relevant section of the Mental Health Act under which they were detained.	survey administration			
+CXR:0000217	Mental category of patient		The mental categories are in accordance with the Mental Health Act 1983; for example, mental illness, (severe) mental impairment, psychopathic disorder.				

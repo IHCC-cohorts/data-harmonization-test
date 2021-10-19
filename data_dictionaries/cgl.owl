@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.ihccglobal.org/cgl.owl">
-        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/cgl/releases/2021-09-02/cgl.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/cgl/releases/2021-10-19/cgl.owl"/>
         <dc:description>description</dc:description>
         <terms:title>Demo test workflow Carles</terms:title>
     </owl:Ontology>
