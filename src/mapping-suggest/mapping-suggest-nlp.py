@@ -81,7 +81,7 @@ tfidf_vect = TfidfVectorizer(ngram_range=(1, 2), min_df=2).fit(training_data["X"
 X_tfidf = tfidf_vect.transform(training_data["X"])
 
 # Building a TFIDF matrix for the template data
-template_data.head(5)
+print(template_data.head(5))
 X_template_tfidf = tfidf_vect.transform(template_data["Label"])
 
 # Training the model
