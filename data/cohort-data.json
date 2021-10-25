@@ -222,6 +222,40 @@
       "genomic_data": true,
       "phenotypic_clinical_data": true
     },
+    "biosample": {
+      "sample_type": [
+        "Blood",
+        "Urine"
+      ]
+    },
+    "cohort_name": "Test Carles",
+    "countries": [
+      "UK"
+    ],
+    "current_enrollment": 300,
+    "enrollment_period": "2016:2020",
+    "irb_approved_data_sharing": true,
+    "pi_lead": "Carles",
+    "questionnaire_survey_data": {
+      "other_questionnaire_survey_data": [
+        "Reproduction"
+      ],
+      "socio_demographic_and_economic_characteristics": [
+        "Age/birthdate",
+        "Biological sex"
+      ]
+    },
+    "survey_administration": [],
+    "target_enrollment": 500,
+    "website": null
+  },
+  {
+    "available_data_types": {
+      "biospecimens": true,
+      "environmental_data": true,
+      "genomic_data": true,
+      "phenotypic_clinical_data": true
+    },
     "cohort_name": "Test Carles",
     "countries": [
       "UK"

@@ -7,7 +7,7 @@
         "CHOP": "https://purl.ihccglobal.org/CHOP_",
         "CL": "http://purl.obolibrary.org/obo/CL_",
         "CMO": "http://purl.obolibrary.org/obo/CMO_",
-        "COB": "http://purl.obolibrary.org/obo/COB_",
+        "COB": "https://purl.ihccglobal.org/COB_",
         "CXR": "https://purl.ihccglobal.org/CXR_",
         "EFO": "http://purl.obolibrary.org/obo/EFO_",
         "ELSABRASIL": "https://purl.ihccglobal.org/ELSABRASIL_",

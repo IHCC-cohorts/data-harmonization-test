@@ -26,6 +26,13 @@ ontologies:
   preferredPrefix: CHOP
   title: Center for Applied Genomics, Children's Hospital of Philadelphia
 - base_uri:
+  - https://purl.ihccglobal.org/COB_
+  description: Test
+  id: cob
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/cob.owl
+  preferredPrefix: COB
+  title: Test Carles
+- base_uri:
   - https://purl.ihccglobal.org/CXR_
   description: Test Synthetic data
   id: cxr
