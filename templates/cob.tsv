@@ -1,0 +1,9 @@
+Term ID	Label	Parent Term	Definition	GECKO Category	Internal ID	Suggested Categories	Comment
+COB:0000001	Surname		Family or last name	survey administration			
+COB:0000002	First Name		The first given name of the individual	survey administration			
+COB:0000003	Sex		Male (1), female(2) or unknown(0)	biological sex			
+COB:0000004	Birth Date		Date of Birth	age/birthdate			
+COB:0000005	Employment Type		Employed, Unemployed, Part time, Retired	socio-demographic and economic characteristics			
+COB:0000006	Birth Weight		Birth weight in grams	reproduction			
+COB:0000007	Blood cell count		Complete blood cell count	blood			
+COB:0000008	Glucose		Fasting glucose level	urine			

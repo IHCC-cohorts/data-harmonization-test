@@ -53,6 +53,24 @@
         "target_enrollment": 2000000,
         "website": "caglab.org"
     },
+    "COB": {
+        "available_data_types": {
+            "biospecimens": true,
+            "environmental_data": true,
+            "genomic_data": true,
+            "phenotypic_clinical_data": true
+        },
+        "cohort_name": "Test Carles",
+        "countries": [
+            "UK"
+        ],
+        "current_enrollment": 300,
+        "enrollment_period": "2016:2020",
+        "irb_approved_data_sharing": true,
+        "pi_lead": "Carles",
+        "target_enrollment": 500,
+        "website": null
+    },
     "CXR": {
         "available_data_types": {
             "biospecimens": true,
