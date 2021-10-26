@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.ihccglobal.org/elsabrasil.owl">
-        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/elsabrasil/releases/2021-10-25/elsabrasil.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/elsabrasil/releases/2021-10-26/elsabrasil.owl"/>
         <dc:description>A cohort of Brazilian public servants from 6 large cities that aim to investigate chronic disorders and their determinants.</dc:description>
         <terms:license>N/A</terms:license>
         <terms:title>ELSA-Brasil</terms:title>
