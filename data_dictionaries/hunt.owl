@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.ihccglobal.org/hunt.owl">
-        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/hunt/releases/2021-10-25/hunt.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/hunt/releases/2021-10-26/hunt.owl"/>
         <dc:description>Older adults &gt;70 years were enrolled as part of the 4th wave of the HUNT study. They were assessed for cognitive function and diagnosed healty, mci or dementia with subtypes.</dc:description>
         <terms:license>https://www.ntnu.edu/documents/140075/1268289603/Guidelines+for+publication+of+research+results+using+HUNT-data.pdf/deef6dd7-09a0-1f50-4a0d-716bde1d2f80?t=1599730098121</terms:license>
         <terms:rights>HUNT, NTNU. Aging and Health.</terms:rights>
