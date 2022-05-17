@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://purl.ihccglobal.org/cgl.owl#"
-     xml:base="https://purl.ihccglobal.org/cgl.owl"
+<rdf:RDF xmlns="https://purl.ihccglobal.org/wsnine.owl#"
+     xml:base="https://purl.ihccglobal.org/wsnine.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,10 +11,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://purl.ihccglobal.org/cgl.owl">
-        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/cgl/releases/2022-05-17/cgl.owl"/>
+    <owl:Ontology rdf:about="https://purl.ihccglobal.org/wsnine.owl">
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/wsnine/releases/2022-05-17/wsnine.owl"/>
         <dc:description>description</dc:description>
-        <terms:title>Demo test workflow Carles</terms:title>
+        <terms:title>WS9 test Carles</terms:title>
     </owl:Ontology>
     
 
@@ -196,81 +196,30 @@
     
 
 
-    <!-- https://purl.ihccglobal.org/CGL_0000001 -->
+    <!-- https://purl.ihccglobal.org/WSNINE_0000001 -->
 
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000001">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The country of origin of the individual (the country of which the person is/was a citizen by birth)</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nationality</rdfs:label>
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">height</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://purl.ihccglobal.org/CGL_0000002 -->
+    <!-- https://purl.ihccglobal.org/WSNINE_0000002 -->
 
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000002">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The country of which the individual is a citizen</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizenship</rdfs:label>
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">birth date</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://purl.ihccglobal.org/CGL_0000003 -->
+    <!-- https://purl.ihccglobal.org/WSNINE_0000003 -->
 
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000003">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Family or last name</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surname</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CGL_0000003"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey administration</rdfs:label>
-    </owl:Axiom>
-    
-
-
-    <!-- https://purl.ihccglobal.org/CGL_0000004 -->
-
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000004">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The first given name of the individual</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Name</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CGL_0000004"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000052</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey administration</rdfs:label>
-    </owl:Axiom>
-    
-
-
-    <!-- https://purl.ihccglobal.org/CGL_0000005 -->
-
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000005">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male (1), female(2) or unknown(0)</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000047</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sex</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CGL_0000005"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000047</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</rdfs:label>
-    </owl:Axiom>
-    
-
-
-    <!-- https://purl.ihccglobal.org/CGL_0000006 -->
-
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000006">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date of Birth</obo:IAO_0000115>
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000003">
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000011</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birth Date</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CGL_0000006"/>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000011</owl:annotatedTarget>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age/birthdate</rdfs:label>
@@ -278,67 +227,139 @@
     
 
 
-    <!-- https://purl.ihccglobal.org/CGL_0000007 -->
+    <!-- https://purl.ihccglobal.org/WSNINE_0000004 -->
 
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000007">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Employed, Unemployed, Part time, Retired</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001995</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Employment Type</rdfs:label>
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000004">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000047</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sex</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CGL_0000007"/>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000004"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001995</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">socio-demographic and economic characteristics</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000047</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological sex</rdfs:label>
     </owl:Axiom>
     
 
 
-    <!-- https://purl.ihccglobal.org/CGL_0000008 -->
+    <!-- https://purl.ihccglobal.org/WSNINE_0000005 -->
 
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000008">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birth weight in grams</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birth Weight</rdfs:label>
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000005">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000069</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CGL_0000008"/>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000005"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000114</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000069</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol use history</rdfs:label>
     </owl:Axiom>
     
 
 
-    <!-- https://purl.ihccglobal.org/CGL_0000009 -->
+    <!-- https://purl.ihccglobal.org/WSNINE_0000006 -->
 
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000009">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complete blood cell count</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000178</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blood cell count</rdfs:label>
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000006">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0004992</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CGL_0000009"/>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000006"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0000178</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0004992</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
     </owl:Axiom>
     
 
 
-    <!-- https://purl.ihccglobal.org/CGL_0000010 -->
+    <!-- https://purl.ihccglobal.org/WSNINE_0000007 -->
 
-    <owl:Class rdf:about="https://purl.ihccglobal.org/CGL_0000010">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fasting glucose</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001088</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucose</rdfs:label>
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000007">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000068</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoke</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/CGL_0000010"/>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000007"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBERON:0001088</owl:annotatedTarget>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urine</rdfs:label>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000068</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tobacco use history</rdfs:label>
     </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/WSNINE_0000008 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000008">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000011</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">birth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0000011</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age/birthdate</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/WSNINE_0000009 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000009">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000063</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">birthplace</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000009"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000063</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">birthplace</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/WSNINE_0000010 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000010">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000068</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tobacco</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GECKO:0000068</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tobacco use history</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/WSNINE_0000011 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000011">
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMO:0000106</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average height</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://purl.ihccglobal.org/WSNINE_0000011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMO:0000106</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">height</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- https://purl.ihccglobal.org/WSNINE_0000012 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collection date of smoking status information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.ihccglobal.org/WSNINE_0000013 -->
+
+    <owl:Class rdf:about="https://purl.ihccglobal.org/WSNINE_0000013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In your entire life, have you had at least 1 drink of any kind of alcohol? ,(not counting small tastes or sips)</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

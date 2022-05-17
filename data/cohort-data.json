@@ -1042,5 +1042,42 @@
     ],
     "target_enrollment": 130000,
     "website": "https://www.ahri.org"
+  },
+  {
+    "available_data_types": {
+      "biospecimens": false,
+      "environmental_data": false,
+      "genomic_data": false,
+      "phenotypic_clinical_data": false
+    },
+    "cohort_name": "WS9 test Carles",
+    "countries": [
+      "UK"
+    ],
+    "current_enrollment": 500,
+    "enrollment_period": "2019:2021",
+    "irb_approved_data_sharing": false,
+    "pi_lead": "test",
+    "questionnaire_survey_data": {
+      "diseases": [
+        "Cancer"
+      ],
+      "lifestyle_and_behaviours": [
+        "Alcohol use history",
+        "Tobacco use history"
+      ],
+      "physiological_measurements": {
+        "anthropometry": [
+          "Height"
+        ]
+      },
+      "socio_demographic_and_economic_characteristics": [
+        "Age/birthdate",
+        "Biological sex",
+        "Birthplace"
+      ]
+    },
+    "target_enrollment": 1000,
+    "website": null
   }
 ]
