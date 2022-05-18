@@ -120,6 +120,13 @@ ontologies:
   preferredPrefix: VZ
   title: Vukuzazi
 - base_uri:
+  - https://purl.ihccglobal.org/WORKSH_
+  description: description
+  id: worksh
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/worksh.owl
+  preferredPrefix: WORKSH
+  title: WORKSH test Carles
+- base_uri:
   - https://purl.ihccglobal.org/WRSTHREE_
   description: description
   id: wrsthree
