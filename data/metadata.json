@@ -277,6 +277,24 @@
         "target_enrollment": 130000,
         "website": "https://www.ahri.org"
     },
+    "WORKSH": {
+        "available_data_types": {
+            "biospecimens": false,
+            "environmental_data": false,
+            "genomic_data": false,
+            "phenotypic_clinical_data": false
+        },
+        "cohort_name": "WORKSH test Carles",
+        "countries": [
+            "UK"
+        ],
+        "current_enrollment": 500,
+        "enrollment_period": "2019:2021",
+        "irb_approved_data_sharing": false,
+        "pi_lead": "test",
+        "target_enrollment": 1000,
+        "website": null
+    },
     "WRSTHREE": {
         "available_data_types": {
             "biospecimens": false,
