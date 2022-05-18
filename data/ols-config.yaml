@@ -120,6 +120,13 @@ ontologies:
   preferredPrefix: VZ
   title: Vukuzazi
 - base_uri:
+  - https://purl.ihccglobal.org/WRSTHREE_
+  description: description
+  id: wrsthree
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/wrsthree.owl
+  preferredPrefix: WRSTHREE
+  title: WRS3 test Carles
+- base_uri:
   - https://purl.ihccglobal.org/WSNINE_
   description: description
   id: wsnine

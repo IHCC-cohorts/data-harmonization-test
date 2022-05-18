@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.ihccglobal.org/chop.owl">
-        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/chop/releases/2022-05-17/chop.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/chop/releases/2022-05-18/chop.owl"/>
         <dc:description>Data elements collected by CHOP to develop the Philadelphia Neurodevelopmental Cohort (PNC) plus data developed with the University of Pennsylvania on Alzheimer&apos;s susceptibility</dc:description>
         <terms:license>https://creativecommons.org/licenses/by-nc-sa/4.0/</terms:license>
         <terms:rights>This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms: 

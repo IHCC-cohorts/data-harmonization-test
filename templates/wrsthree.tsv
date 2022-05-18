@@ -1,0 +1,14 @@
+Term ID	Label	Parent Term	Definition	GECKO Category	Internal ID	Suggested Categories	Comment
+WRSTHREE:0000001	height						
+WRSTHREE:0000002	birth date						
+WRSTHREE:0000003	age			age/birthdate			
+WRSTHREE:0000004	sex			biological sex			
+WRSTHREE:0000005	alcohol			alcohol use history			
+WRSTHREE:0000006	cancer			cancer			
+WRSTHREE:0000007	tobacco			tobacco use history			
+WRSTHREE:0000008	birth			age/birthdate			
+WRSTHREE:0000009	birthplace			birthplace			
+WRSTHREE:0000010	smoke			tobacco use history			
+WRSTHREE:0000011	average height			height			
+WRSTHREE:0000012	Collection date of smoking status information						
+WRSTHREE:0000013	In your entire life, have you had at least 1 drink of any kind of alcohol?						
