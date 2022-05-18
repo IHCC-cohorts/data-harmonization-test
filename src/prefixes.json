@@ -37,6 +37,7 @@
         "UBERON": "http://purl.obolibrary.org/obo/UBERON_",
         "UKLWC": "https://purl.ihccglobal.org/UKLWC_",
         "VZ": "https://purl.ihccglobal.org/VZ_",
+        "WRSTHREE": "https://purl.ihccglobal.org/WRSTHREE_",
         "WSNINE": "https://purl.ihccglobal.org/WSNINE_",
         "dc": "http://purl.org/dc/terms/",
         "obo": "http://purl.obolibrary.org/obo/",
