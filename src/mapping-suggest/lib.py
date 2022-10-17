@@ -166,8 +166,6 @@ def parse_ols_first(json_data, fields, ols_oboid):
 def map_term(term, zooma_annotate, ols_term, ols_oboid, confidence_map):
     matches = []
     data = get_json_from_url(zooma_annotate, term)
-    print("Mapping term: " + term)
-    print(data)
     for match in data:
         match_iris = match["semanticTags"]
         confidence = match["confidence"]
