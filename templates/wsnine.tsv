@@ -1,0 +1,14 @@
+Term ID	Label	Parent Term	Definition	GECKO Category	Internal ID	Suggested Categories	Comment
+WSNINE:0000001	height						
+WSNINE:0000002	birth date						
+WSNINE:0000003	age			age/birthdate			
+WSNINE:0000004	sex			biological sex			
+WSNINE:0000005	alcohol			alcohol use history			
+WSNINE:0000006	cancer			cancer			
+WSNINE:0000007	smoke			tobacco use history			
+WSNINE:0000008	birth			age/birthdate			
+WSNINE:0000009	birthplace			birthplace			
+WSNINE:0000010	tobacco			tobacco use history			
+WSNINE:0000011	average height			height			
+WSNINE:0000012	Collection date of smoking status information						
+WSNINE:0000013	In your entire life, have you had at least 1 drink of any kind of alcohol? ,(not counting small tastes or sips)						

@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.ihccglobal.org/plco.owl">
-        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/plco/releases/2021-10-26/plco.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/plco/releases/2022-05-18/plco.owl"/>
         <dc:description>This was a randomized trial of screening for four cancers and also a long-term cohort focused on all-cancer outcomes</dc:description>
         <terms:rights>No restrictions</terms:rights>
         <terms:title>Prostate, Lung, Colorectal and Ovarian Cancer Screening Trial</terms:title>

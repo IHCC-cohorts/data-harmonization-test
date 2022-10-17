@@ -119,3 +119,24 @@ ontologies:
   ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/vz.owl
   preferredPrefix: VZ
   title: Vukuzazi
+- base_uri:
+  - https://purl.ihccglobal.org/WORKSH_
+  description: description
+  id: worksh
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/worksh.owl
+  preferredPrefix: WORKSH
+  title: WORKSH test Carles
+- base_uri:
+  - https://purl.ihccglobal.org/WRSTHREE_
+  description: description
+  id: wrsthree
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/wrsthree.owl
+  preferredPrefix: WRSTHREE
+  title: WRS3 test Carles
+- base_uri:
+  - https://purl.ihccglobal.org/WSNINE_
+  description: description
+  id: wsnine
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/wsnine.owl
+  preferredPrefix: WSNINE
+  title: WS9 test Carles
