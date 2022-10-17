@@ -54,8 +54,8 @@ if "zooma_confidence_mappings" in config:
 df["confidence"] = df["confidence"].replace(zooma_confidence_map)
 
 if len(df) > 0:
-    print("Zooma matching successful. First two results:")
-    print(df[["term", "match", "confidence"]].head(2))
+    print("Zooma matching successful. First twenty results:")
+    print(df[["term", "match", "confidence"]].head(20))
 else:
     print("WARNING: Zooma matching did not yield any results at all")
 

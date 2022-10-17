@@ -115,8 +115,8 @@ df_out["match"] = [
 del df_out["from"]
 
 if len(df_out) > 0:
-    print("NLP matching successful. First two results:")
-    print(df_out[["term", "match", "confidence"]].head(2))
+    print("NLP matching successful. First twenty results:")
+    print(df_out[["term", "match", "confidence"]].head(20))
 else:
     print("WARNING: NLP matching did not yield any results at all")
 
