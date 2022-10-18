@@ -47,7 +47,7 @@ if "min_match_probability" in config:
     min_match_probability = config["min_match_probability"]
 zooma = pd.read_csv(args.training_data_file, sep="\t")
 gecko = pd.read_csv(args.gecko_labels_file, sep=",")
-gecko_labels = gecko[gecko["property"] == rdfs_label][["from", "label"]].fillna('-')
+gecko_labels = gecko[gecko["property"] == rdfs_label][["from", "label"]]
 gecko = gecko[["from", "label"]]
 
 template = pd.read_csv(args.template_file, sep="\t")
@@ -108,6 +108,7 @@ m = m[m["confidence"] > min_match_probability]
 # Merging GECKO labels back in
 df_out = pd.merge(m, gecko_labels, how="left", left_on=["match"], right_on=["from"])
 df_out.rename({"label": "match_label"}, axis=1, inplace=True)
+df_out = df_out.fillna('-')
 df_out["match"] = [
     str(item).replace(obo_purl, "").replace(ihcc_purl_prefix, "").replace("_", ":")
     for item in df_out["match"]
