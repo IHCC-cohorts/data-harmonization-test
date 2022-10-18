@@ -47,7 +47,7 @@ if "min_match_probability" in config:
     min_match_probability = config["min_match_probability"]
 zooma = pd.read_csv(args.training_data_file, sep="\t")
 gecko = pd.read_csv(args.gecko_labels_file, sep=",")
-gecko_labels = gecko[gecko["property"] == rdfs_label][["from", "label"]]
+gecko_labels = gecko[gecko["property"] == rdfs_label][["from", "label"]].fillna('-')
 gecko = gecko[["from", "label"]]
 
 template = pd.read_csv(args.template_file, sep="\t")
