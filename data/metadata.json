@@ -185,6 +185,24 @@
         "target_enrollment": null,
         "website": "https://www.ntnu.edu/hunt"
     },
+    "ISUD": {
+        "available_data_types": {
+            "biospecimens": false,
+            "environmental_data": false,
+            "genomic_data": false,
+            "phenotypic_clinical_data": false
+        },
+        "cohort_name": "Demo test workflow",
+        "countries": [
+            "UK"
+        ],
+        "current_enrollment": 500,
+        "enrollment_period": "2019:2021",
+        "irb_approved_data_sharing": false,
+        "pi_lead": "test",
+        "target_enrollment": 1000,
+        "website": null
+    },
     "KOGES": {
         "available_data_types": {
             "biospecimens": true,

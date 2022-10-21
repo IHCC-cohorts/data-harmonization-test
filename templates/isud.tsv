@@ -1,0 +1,39 @@
+Term ID	Label	Parent Term	Definition	GECKO Category	Internal ID	Suggested Categories	Comment
+ISUD:0000001	Nationality		The country of origin of the individual (the country of which the person is/was a citizen by birth)	residence			
+ISUD:0000002	Citizenship		The country of which the individual is a citizen	ethnicity/race			
+ISUD:0000003	Surname		Family or last name	survey administration			
+ISUD:0000004	First Name			survey administration			
+ISUD:0000005	Sex			biological sex			
+ISUD:0000006	Birth Date			age/birthdate			
+ISUD:0000007	Employment Type			socio-demographic and economic characteristics			
+ISUD:0000008	Birth Weight			reproduction			
+ISUD:0000009	Blood cell count			blood			
+ISUD:0000010	Glucose			urine			
+ISUD:0000011	Country of residence						
+ISUD:0000012	Rural/Urban Indicator			location			
+ISUD:0000013	Current electoral ward			residence			
+ISUD:0000014	Ethnic Category Group			ethnicity/race			
+ISUD:0000015	Family history of Crohn’s disease			family history of disease			
+ISUD:0000016	Family history of high blood pressure			family history of disease			
+ISUD:0000017	Family history of irritable bowel syndrome			family history of disease			
+ISUD:0000018	Family history of liver cirrhosis			family history of disease			
+ISUD:0000019	Family history of major depression			family history of disease			
+ISUD:0000020	Lifetime occurrence of stroke			cardiovascular diseases			
+ISUD:0000021	Lifetime occurrence of diabetes			endocrine system diseases			
+ISUD:0000022	Father kidney cancer			family history of disease			
+ISUD:0000023	Cancer ever treated			cancer			
+ISUD:0000024	Cancer type			cancer			
+ISUD:0000025	Frequency of walking			physical activity history			
+ISUD:0000026	Frequency of vigorous activities			physical activity history			
+ISUD:0000027	Frequency of moderate activities			physical activity history			
+ISUD:0000028	Full-time employed						
+ISUD:0000029	Number of cigarettes smoked per day			tobacco use history			
+ISUD:0000030	Alcohol mostly drank on weekend days			alcohol use history			
+ISUD:0000031	Age stopped job of longest duration			life stage/time point			
+ISUD:0000032	Average weight – self reported			weight			
+ISUD:0000033	Body mass index			anthropometry			
+ISUD:0000034	DisDiabetesAge			endocrine system diseases			
+ISUD:0000035	SurgeryType			surgical interventions			
+ISUD:0000036	TobEndAge						
+ISUD:0000037	AlcStartAge						
+ISUD:0000038	AnimalType						
