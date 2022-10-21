@@ -20,6 +20,7 @@
         "HUNT": "https://purl.ihccglobal.org/HUNT_",
         "IAO": "http://purl.obolibrary.org/obo/IAO_",
         "IHCC": "https://purl.ihccglobal.org/",
+        "ISUD": "https://purl.ihccglobal.org/ISUD_",
         "KOGES": "https://purl.ihccglobal.org/KOGES_",
         "MAELSTROM": "https://purl.ihccglobal.org/MAELSTROM_",
         "MMO": "http://purl.obolibrary.org/obo/MMO_",

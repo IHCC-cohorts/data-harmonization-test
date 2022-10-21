@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.ihccglobal.org/wrsthree.owl">
-        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/wrsthree/releases/2022-05-18/wrsthree.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/wrsthree/releases/2022-10-18/wrsthree.owl"/>
         <dc:description>description</dc:description>
         <terms:title>WRS3 test Carles</terms:title>
     </owl:Ontology>
