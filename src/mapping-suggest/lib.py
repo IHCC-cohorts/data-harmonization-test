@@ -13,12 +13,29 @@ from datetime import datetime
 import pandas as pd
 import urllib.request
 import urllib.parse
+import wordninja
 from sklearn.metrics import f1_score
 from sklearn.metrics import accuracy_score
 
 
 obo_purl = "http://purl.obolibrary.org/obo/"
 ihcc_purl_prefix = "https://purl.ihccglobal.org/"
+
+
+def remove_special(term):
+    return term.replace('_', ' ')
+
+
+def guess_word_boundary(term):
+    return ' '.join(wordninja.split(term))
+
+
+def clean_term(term):
+    return guess_word_boundary(remove_special(term))
+
+
+def clean_terms(terms):
+    return [clean_term(term) for term in terms]
 
 
 def generate_zooma_dataset(df):

@@ -12,11 +12,12 @@ from argparse import ArgumentParser
 
 import pandas as pd
 
-from lib import load_ihcc_config, map_term
+from lib import load_ihcc_config, map_term, clean_term
 
 parser = ArgumentParser()
 parser.add_argument("-c", "--config", dest="config_file", help="Config file", metavar="FILE")
 parser.add_argument("-t", "--template", dest="tsv_path", help="Template file", metavar="FILE")
+parser.add_argument("-p", "--preprocess", dest="preprocess", help="preprocess and clean labels", metavar="FILE")
 parser.add_argument("-o", "--output", dest="tsv_out_path", help="Output file", metavar="FILE")
 args = parser.parse_args()
 
@@ -40,8 +41,15 @@ matches = []
 
 for term in tsv_terms:
     if isinstance(term, str):
-        # print("Matching " + term)
-        matches.extend(map_term(term, zooma_annotate, ols_term, ols_oboid, confidence_map))
+        if args.preprocess == "WORD_BOUNDARY":
+            zooma_matching_term_list = map_term(clean_term(term), zooma_annotate, ols_term, ols_oboid, confidence_map)
+            print(zooma_matching_term_list)
+            for matching_term in zooma_matching_term_list:
+                matching_term[0] = term
+            matches.extend(zooma_matching_term_list)
+        else:
+            zooma_matching_term_list = map_term(term, zooma_annotate, ols_term, ols_oboid, confidence_map)
+            matches.extend(zooma_matching_term_list)
     else:
         print("ERROR term '%s' does not seem to be a string!" % term)
 

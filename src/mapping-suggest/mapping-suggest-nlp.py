@@ -14,7 +14,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import SGDClassifier
 from sklearn.preprocessing import MinMaxScaler
 
-from lib import ihcc_purl_prefix, obo_purl, load_ihcc_config
+from lib import ihcc_purl_prefix, obo_purl, load_ihcc_config, clean_terms
 
 parser = ArgumentParser()
 # parser.add_argument("-c", "--config", dest="config_file", help="Config file", metavar="FILE")
@@ -30,6 +30,7 @@ parser.add_argument("-c", "--config", dest="config_file", help="Config file", me
 parser.add_argument(
     "-g", "--gecko", dest="gecko_labels_file", help="File containing GECKO labels", metavar="FILE"
 )
+parser.add_argument("-p", "--preprocess", dest="preprocess", help="preprocess and clean labels", metavar="FILE")
 parser.add_argument(
     "-o",
     "--output",
@@ -82,7 +83,10 @@ X_tfidf = tfidf_vect.transform(training_data["X"])
 
 # Building a TFIDF matrix for the template data
 print(template_data.head(5))
-X_template_tfidf = tfidf_vect.transform(template_data["Label"])
+if args.preprocess == "WORD_BOUNDARY":
+    X_template_tfidf = tfidf_vect.transform(clean_terms(template_data["Label"]))
+else:
+    X_template_tfidf = tfidf_vect.transform(template_data["Label"])
 
 # Training the model
 clf_lr = SGDClassifier(loss="log").fit(X_tfidf, training_data["y"])

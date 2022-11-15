@@ -353,10 +353,22 @@ build/intermediate/%_mapping_suggestions_zooma.tsv: $(MAP_SCRIPT_DIR)/mapping-su
 													id_generation_% | build/intermediate
 	python3 $< -c $(MAP_SCRIPT_CONFIG) -t templates/$*.tsv -o $@
 
+build/intermediate/%_mapping_suggestions_nlp_clean.tsv: $(MAP_SCRIPT_DIR)/mapping-suggest-nlp.py \
+													templates/%.tsv $(GECKO_LEXICAL) \
+													id_generation_% | build/intermediate
+	python3 $< -z $(ZOOMA_DATASET) -c $(MAP_SCRIPT_CONFIG) -t templates/$*.tsv -g $(GECKO_LEXICAL) -p WORD_BOUNDARY -o $@
+
+build/intermediate/%_mapping_suggestions_zooma_clean.tsv: $(MAP_SCRIPT_DIR)/mapping-suggest-zooma.py \
+													$(MAP_SCRIPT_CONFIG) templates/%.tsv \
+													id_generation_% | build/intermediate
+	python3 $< -c $(MAP_SCRIPT_CONFIG) -t templates/$*.tsv -p WORD_BOUNDARY -o $@
+
 # All of the mapping suggestion tables should have the following columns: ["confidence", "match", "match_label"]
 build/suggestions_%.tsv: templates/%.tsv \
 					build/intermediate/%_mapping_suggestions_zooma.tsv \
-					build/intermediate/%_mapping_suggestions_nlp.tsv
+					build/intermediate/%_mapping_suggestions_nlp.tsv \
+					build/intermediate/%_mapping_suggestions_zooma_clean.tsv \
+					build/intermediate/%_mapping_suggestions_nlp_clean.tsv
 	python3 $(MAP_SCRIPT_DIR)/merge-mapping-suggestions.py -t $< $(patsubst %, -s %, $(filter-out $<,$^)) -o $@
 
 build/cogs-data-validation.tsv build/cogs-info-table.tsv: $(MAP_SCRIPT_DIR)/create-data-validation.py build/terminology.tsv build/gecko_labels.tsv

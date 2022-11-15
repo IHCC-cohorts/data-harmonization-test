@@ -9,3 +9,5 @@ numpy
 jsonschema
 openpyxl
 ontodev-cogs==0.3.3
+
+wordninja
