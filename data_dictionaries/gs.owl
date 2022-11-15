@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.ihccglobal.org/gs.owl">
-        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/gs/releases/2022-05-18/gs.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.ihccglobal.org/gs/releases/2022-10-18/gs.owl"/>
         <dc:description>The Generations Study is a long-term prospective cohort study focussed on potential aetiological factors for breast cancer in women.  The participants are volunteers from the UK general population.</dc:description>
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <terms:title>Generations Study</terms:title>

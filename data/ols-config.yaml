@@ -81,6 +81,13 @@ ontologies:
   preferredPrefix: HUNT
   title: HUNT 70+, The HUNT Study
 - base_uri:
+  - https://purl.ihccglobal.org/ISUD_
+  description: description
+  id: isud
+  ontology_purl: https://raw.githubusercontent.com/IHCC-cohorts/data-harmonization-test/master/data_dictionaries/isud.owl
+  preferredPrefix: ISUD
+  title: Demo test workflow
+- base_uri:
   - https://purl.ihccglobal.org/KOGES_
   description: The core variables collected in the Korean Genome and Epidemiology
     Study.
