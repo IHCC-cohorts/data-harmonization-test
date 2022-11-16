@@ -25,7 +25,7 @@ ihcc_purl_prefix = "https://purl.ihccglobal.org/"
 
 
 def remove_special(term):
-    return term.replace('_', ' ')
+    return term.replace('_', ' ').replace('.', ' ')
 
 
 def guess_word_boundary(term):
