@@ -7,6 +7,7 @@ The input is a ROBOT template with the usual IHCC data dictionary. This dictiona
 Suggested mappings, which are added the 'Suggested Mappings' column of the template.
 author: Nico Matentzoglu for Knocean Inc., 15 September 2020
 """
+import sys
 
 import pandas as pd
 from argparse import ArgumentParser
@@ -14,7 +15,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import SGDClassifier
 from sklearn.preprocessing import MinMaxScaler
 
-from lib import ihcc_purl_prefix, obo_purl, load_ihcc_config, clean_terms
+from lib import ihcc_purl_prefix, obo_purl, load_ihcc_config, clean_terms, DictionaryMappingHelper
+
 
 parser = ArgumentParser()
 # parser.add_argument("-c", "--config", dest="config_file", help="Config file", metavar="FILE")
@@ -85,6 +87,10 @@ X_tfidf = tfidf_vect.transform(training_data["X"])
 print(template_data.head(5))
 if args.preprocess == "WORD_BOUNDARY":
     X_template_tfidf = tfidf_vect.transform(clean_terms(template_data["Label"]))
+if args.preprocess == "DEFINITION":
+    template['Definition'].fillna(template['Label'], inplace=True)
+    definition_mapper = DictionaryMappingHelper(template)
+    X_template_tfidf = tfidf_vect.transform(definition_mapper.get_mappings(template_data["Label"]))
 else:
     X_template_tfidf = tfidf_vect.transform(template_data["Label"])
 

@@ -1,7 +1,7 @@
-zooma_annotate: "https://mapping.ihccglobal.app/zooma/v2/api/services/annotate?propertyValue="
-oxo_mapping: "https://mapping.ihccglobal.app/api/mappings?fromId="
-ols_term: "https://registry.ihccglobal.app/api/terms?iri="
-ols_oboid: "https://registry.ihccglobal.app/api/terms?obo_id="
+zooma_annotate: "https://test.mapping.ihccglobal.app/zooma/v2/api/services/annotate?propertyValue="
+oxo_mapping: "https://test.mapping.ihccglobal.app/api/mappings?fromId="
+ols_term: "https://test.registry.ihccglobal.app/api/terms?iri="
+ols_oboid: "https://test.registry.ihccglobal.app/api/terms?obo_id="
 min_match_probability: 0.1
 rescale_nlp_matches:
   low: 0

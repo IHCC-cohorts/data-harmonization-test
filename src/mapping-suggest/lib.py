@@ -6,6 +6,8 @@ Library of functions for the IHCC data dictionary mapping pipeline
 """
 
 import os
+
+import numpy as np
 import yaml
 import json
 import re
@@ -281,3 +283,20 @@ class FailedWebServiceCallError(Error):
 
 class QCError(Error):
     pass
+
+
+class DictionaryMappingHelper:
+
+    def __init__(self, dataframe):
+        self.mapping_dictionary = {}
+        self.build_mapping_dictionary(dataframe)
+
+    def build_mapping_dictionary(self, dataframe):
+        for index, row in dataframe.iterrows():
+            self.mapping_dictionary[row['Label']] = row['Definition'] if row['Definition'] != np.NAN else ' '
+
+    def get_mapping(self, term):
+        return self.mapping_dictionary[term]
+
+    def get_mappings(self, terms):
+        return [self.get_mapping(term) for term in terms]
