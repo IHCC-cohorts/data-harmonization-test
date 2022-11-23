@@ -38,8 +38,8 @@ def main():
 
             # Parse suggested categories into a list
             cat_names = []
+            auto_assigned = False
             for sc in suggested_cats.split(" | "):
-                auto_assigned = False
                 match = re.search(r"([^ ]+) [A-Z]+:[0-9]+ (.+)", sc)
                 if match:
                     gecko_cat = match.group(2)
