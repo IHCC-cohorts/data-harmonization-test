@@ -45,7 +45,7 @@ def main():
                     gecko_cat = match.group(2)
                     cat_names.append(gecko_cat)
                     score = float(match.group(1))
-                    if score > 0.97 and not auto_assigned:
+                    if score > 0.65 and not auto_assigned:
                         auto_assigned = True
                         rewrite_table = True
                         row["GECKO Category"] = gecko_cat
