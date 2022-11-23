@@ -15,7 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import SGDClassifier
 from sklearn.preprocessing import MinMaxScaler
 
-from lib import ihcc_purl_prefix, obo_purl, load_ihcc_config, clean_terms, DictionaryMappingHelper
+from lib import ihcc_purl_prefix, obo_purl, load_ihcc_config, clean_terms, remove_hierarchy_terms, DictionaryMappingHelper
 
 
 parser = ArgumentParser()
@@ -87,7 +87,9 @@ X_tfidf = tfidf_vect.transform(training_data["X"])
 print(template_data.head(5))
 if args.preprocess == "WORD_BOUNDARY":
     X_template_tfidf = tfidf_vect.transform(clean_terms(template_data["Label"]))
-if args.preprocess == "DEFINITION":
+elif args.preprocess == "HIERARCHY":
+    X_template_tfidf = tfidf_vect.transform(remove_hierarchy_terms(template_data["Label"]))
+elif args.preprocess == "DEFINITION":
     template['Definition'].fillna(template['Label'], inplace=True)
     definition_mapper = DictionaryMappingHelper(template)
     X_template_tfidf = tfidf_vect.transform(definition_mapper.get_mappings(template_data["Label"]))

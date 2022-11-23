@@ -12,7 +12,7 @@ from argparse import ArgumentParser
 
 import pandas as pd
 
-from lib import load_ihcc_config, map_term, clean_term, DictionaryMappingHelper
+from lib import load_ihcc_config, map_term, clean_term, remove_hierarchy_term, DictionaryMappingHelper
 
 parser = ArgumentParser()
 parser.add_argument("-c", "--config", dest="config_file", help="Config file", metavar="FILE")
@@ -43,6 +43,11 @@ for term in tsv_terms:
     if isinstance(term, str):
         if args.preprocess == "WORD_BOUNDARY":
             zooma_matching_term_list = map_term(clean_term(term), zooma_annotate, ols_term, ols_oboid, confidence_map)
+            for matching_term in zooma_matching_term_list:
+                matching_term[0] = term
+            matches.extend(zooma_matching_term_list)
+        if args.preprocess == "HIERARCHY":
+            zooma_matching_term_list = map_term(remove_hierarchy_term(term), zooma_annotate, ols_term, ols_oboid, confidence_map)
             for matching_term in zooma_matching_term_list:
                 matching_term[0] = term
             matches.extend(zooma_matching_term_list)

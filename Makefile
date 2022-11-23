@@ -363,6 +363,16 @@ build/intermediate/%_mapping_suggestions_zooma_clean.tsv: $(MAP_SCRIPT_DIR)/mapp
 													id_generation_% | build/intermediate
 	python3 $< -c $(MAP_SCRIPT_CONFIG) -t templates/$*.tsv -p WORD_BOUNDARY -o $@
 
+build/intermediate/%_mapping_suggestions_nlp_hierarchy.tsv: $(MAP_SCRIPT_DIR)/mapping-suggest-nlp.py \
+													templates/%.tsv $(GECKO_LEXICAL) \
+													id_generation_% | build/intermediate
+	python3 $< -z $(ZOOMA_DATASET) -c $(MAP_SCRIPT_CONFIG) -t templates/$*.tsv -g $(GECKO_LEXICAL) -p HIERARCHY -o $@
+
+build/intermediate/%_mapping_suggestions_zooma_hierarchy.tsv: $(MAP_SCRIPT_DIR)/mapping-suggest-zooma.py \
+													$(MAP_SCRIPT_CONFIG) templates/%.tsv \
+													id_generation_% | build/intermediate
+	python3 $< -c $(MAP_SCRIPT_CONFIG) -t templates/$*.tsv -p HIERARCHY -o $@
+
 build/intermediate/%_mapping_suggestions_nlp_definition.tsv: $(MAP_SCRIPT_DIR)/mapping-suggest-nlp.py \
 													templates/%.tsv $(GECKO_LEXICAL) \
 													id_generation_% | build/intermediate
@@ -379,6 +389,8 @@ build/suggestions_%.tsv: templates/%.tsv \
 					build/intermediate/%_mapping_suggestions_nlp.tsv \
 					build/intermediate/%_mapping_suggestions_zooma_clean.tsv \
 					build/intermediate/%_mapping_suggestions_nlp_clean.tsv \
+					build/intermediate/%_mapping_suggestions_zooma_hierarchy.tsv \
+					build/intermediate/%_mapping_suggestions_nlp_hierarchy.tsv \
 					build/intermediate/%_mapping_suggestions_zooma_definition.tsv \
 					build/intermediate/%_mapping_suggestions_nlp_definition.tsv
 	python3 $(MAP_SCRIPT_DIR)/merge-mapping-suggestions.py -t $< $(patsubst %, -s %, $(filter-out $<,$^)) -o $@

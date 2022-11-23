@@ -40,6 +40,21 @@ def clean_terms(terms):
     return [clean_term(term) for term in terms]
 
 
+def get_last_term_in_hierarchy(term: str):
+    term_parts = term.split(".")
+    return term_parts[len(term_parts) - 1]
+
+
+def remove_hierarchy_term(term):
+    child_term = get_last_term_in_hierarchy(term)
+    # print("Transform from: " + term + " to: " + child_term)
+    return child_term
+
+
+def remove_hierarchy_terms(terms):
+    return [remove_hierarchy_term(term) for term in terms]
+
+
 def generate_zooma_dataset(df):
     zooma_file_basic = []
     zooma_file_simplestring = []
